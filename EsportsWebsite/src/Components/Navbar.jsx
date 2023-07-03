@@ -41,7 +41,6 @@ const Navbar = () => {
   }, []);
   return (
     <div>
-      {" "}
       <nav className="nav">
         <div className="container">
           <div className="logo">
