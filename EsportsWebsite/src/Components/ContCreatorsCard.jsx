@@ -8,7 +8,7 @@ const ContCreatorsCard = () => {
     <div className="card">
       {/* <img src={esport} className="" /> */}
       <div className="content">
-        <h2 className="title">VALORANT</h2>
+        <h2 className="title">CONTENT CREATORS</h2>
         <Link to="/contentcreators">
           <button className="btn">
             View Team
@@ -16,7 +16,7 @@ const ContCreatorsCard = () => {
               style={{
                 fontSize: "2em",
                 position: "absolute",
-                top: "50%",
+                top: "60%",
                 transform: "translateY(-50%)",
               }}
             />

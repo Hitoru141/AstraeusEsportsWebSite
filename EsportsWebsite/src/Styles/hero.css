@@ -113,11 +113,11 @@
     transition: transform calc(var(--d) * 2) var(--e);
   }
   .card:nth-child(1):before {
-    background-image: url(../assets/val logo.webp);
+    background-image: url(../assets/valonew.jpg_large);
     background-position: center;
   }
   .card:nth-child(2):before {
-    background-image: url(../assets/esports setup.jpg.webp);
+    background-image: url(../assets/streamers.jpg);
     background-position: center;
   }
 

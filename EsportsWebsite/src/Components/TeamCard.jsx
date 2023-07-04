@@ -16,7 +16,7 @@ const TeamCard = () => {
               style={{
                 fontSize: "2em",
                 position: "absolute",
-                top: "50%",
+                top: "60%",
                 transform: "translateY(-50%)",
               }}
             />
