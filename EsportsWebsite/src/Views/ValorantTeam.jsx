@@ -4,6 +4,7 @@ const ValorantTeam = () => {
   return (
     <div>
       <Navbar />
+      VALORANT
     </div>
   );
 };

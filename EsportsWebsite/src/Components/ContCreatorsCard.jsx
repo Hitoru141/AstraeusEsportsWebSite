@@ -3,13 +3,13 @@ import "../Styles/hero.css";
 import { BiSolidChevronsRight } from "react-icons/bi";
 // import esport from "../assets/esports setup.jpg.webp";
 
-const TeamCard = () => {
+const ContCreatorsCard = () => {
   return (
     <div className="card">
       {/* <img src={esport} className="" /> */}
       <div className="content">
         <h2 className="title">VALORANT</h2>
-        <Link to="/valoteam">
+        <Link to="/contentcreators">
           <button className="btn">
             View Team
             <BiSolidChevronsRight
@@ -27,4 +27,4 @@ const TeamCard = () => {
   );
 };
 
-export default TeamCard;
+export default ContCreatorsCard;

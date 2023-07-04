@@ -4,6 +4,7 @@ const ContentCreators = () => {
   return (
     <div>
       <Navbar />
+      CONTENT
     </div>
   );
 };

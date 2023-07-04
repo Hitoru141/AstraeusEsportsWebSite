@@ -1,5 +1,6 @@
 import "../Styles/hero.css";
 import samplehero from "../assets/samplehero.jpg";
+import ContCreatorsCard from "./ContCreatorsCard";
 import TeamCard from "./TeamCard";
 const Carousel = () => {
   return (
@@ -16,7 +17,7 @@ const Carousel = () => {
       <div className="team-category">
         <main className="page-content">
           <TeamCard />
-          <TeamCard />
+          <ContCreatorsCard />
         </main>
       </div>
     </div>
