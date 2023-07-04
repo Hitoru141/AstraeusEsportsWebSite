@@ -1,5 +1,6 @@
 import Astrateamcards from "../Components/Astrateamcards";
 import Navbar from "../Components/Navbar";
+import Footer from "../Components/footer";
 import "../Styles/cards.css";
 import millen from "../assets/millennia.png";
 import sol from "../assets/SOL.png";
@@ -8,7 +9,7 @@ import prs from "../assets/polaris.png";
 
 const ValorantTeam = () => {
   return (
-    <div>
+    <div className="Vwrapper">
       <Navbar />
       <div className="ast-header-cont">
         <p className="team-header"> AST TEAMS</p>
@@ -21,6 +22,7 @@ const ValorantTeam = () => {
           <Astrateamcards teamlogo={prs} tname="Millennia" />
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

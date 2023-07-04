@@ -1,10 +1,11 @@
 import Navbar from "../Components/Navbar";
-
+import Footer from "../Components/footer";
 const ContentCreators = () => {
   return (
-    <div>
+    <div className="Vwrapper">
       <Navbar />
-      CONTENT
+
+      <Footer />
     </div>
   );
 };

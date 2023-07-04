@@ -1,23 +1,15 @@
 .Vwrapper{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-
+ 
 }
 .ast-header-cont{
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    top: 30em;
-    width: 100%;
-    
+    width: 100%;   
 }
 
 .cardswrapper{
-    position: absolute;
-    top: 50rem;
+  
     width: 100vw;
     height: 50vh;
  
@@ -73,7 +65,7 @@
     left: 0;
     width: 100%;
     height: 120%;
-    background: linear-gradient(226deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.4) 35%, rgba(255, 255, 255, 0.2) 42%, rgba(255, 255, 255, 0) 60%);
+    background: linear-gradient(226deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.4) 35%, rgba(255, 255, 255, 0.608) 42%, rgba(255, 255, 255, 0) 60%);
     transform: translateY(-20%);
     will-change: transform;
     transition: transform 0.65s cubic-bezier(0.18, 0.9, 0.58, 1);

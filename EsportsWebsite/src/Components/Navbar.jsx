@@ -69,9 +69,6 @@ const Navbar = () => {
         </div>
       </nav>
       <section className="home"></section>
-      <div style={{ height: "1000px" }}>
-        {/* just to make scrolling effect possible */}
-      </div>
     </div>
   );
 };
