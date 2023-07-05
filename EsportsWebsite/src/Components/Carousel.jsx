@@ -48,12 +48,12 @@ const Carousel = () => {
         ))}
       </div>
       <div className="carousel-controls">
-        <button className="carousel-control" onClick={handlePrev}>
+        <div className="carousel-control" onClick={handlePrev}>
           <BiChevronLeftCircle />
-        </button>
-        <button className="carousel-control" onClick={handleNext}>
+        </div>
+        <div className="carousel-control" onClick={handleNext}>
           <BiChevronRightCircle />
-        </button>
+        </div>
       </div>
     </div>
   );

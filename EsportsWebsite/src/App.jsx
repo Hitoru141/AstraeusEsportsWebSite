@@ -4,6 +4,7 @@ import Home from "./Views/Home";
 import ValorantTeam from "./Views/ValorantTeam";
 import ContentCreators from "./Views/ContentCreators";
 import Errorpage from "./Views/Errorpage";
+import Playerpage from "./Views/Playerpage";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/valoteam" element={<ValorantTeam />} />
         <Route path="/contentcreators" element={<ContentCreators />} />
+        <Route path="/team" element={<Playerpage />} />
         <Route path="*" element={<Errorpage />} />
       </Routes>
     </Router>

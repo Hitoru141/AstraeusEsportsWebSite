@@ -6,6 +6,7 @@ import millen from "../assets/millennia.png";
 import sol from "../assets/SOL.png";
 import hlx from "../assets/helix.png";
 import prs from "../assets/polaris.png";
+import { Link } from "react-router-dom";
 
 const ValorantTeam = () => {
   return (
@@ -17,7 +18,9 @@ const ValorantTeam = () => {
       <div className="cardswrapper">
         <div className="l-container">
           <Astrateamcards teamlogo={millen} tname="Millennia" />
-          <Astrateamcards teamlogo={sol} tname="Millennia" />
+          <Link to="/team">
+            <Astrateamcards teamlogo={sol} tname="Millennia" />
+          </Link>
           <Astrateamcards teamlogo={hlx} tname="Millennia" />
           <Astrateamcards teamlogo={prs} tname="Millennia" />
         </div>

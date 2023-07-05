@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: 10rem;
+  margin: 5rem;
 }
 
 .carousel {
@@ -38,16 +38,15 @@
 }
 
 .carousel-control {
-  margin: 0 0.5em;
-  padding: 0.5em 1em;
-  font-size: 2rem;
-  border-radius: 5px;
-  background-color: #85111100;
-  cursor: pointer;
-}
-
-.carousel-control:hover {
  
+  padding: 0.5em 1em;
+  font-size: 2.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+.carousel-control:hover{
+  color: blueviolet;
 }
 .team-header{
     font-size: 6em;
@@ -134,12 +133,14 @@
     transition: transform calc(var(--d) * 2) var(--e);
   }
   .card:nth-child(1):before {
-    background-image: url(../assets/valonew.jpg_large);
+    background-image: url(../assets/valonew.jpg_large) ;
     background-position: center;
+ 
   }
   .card:nth-child(2):before {
     background-image: url(../assets/streamers.jpg);
     background-position: center;
+   
   }
 
   
