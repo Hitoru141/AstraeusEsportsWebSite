@@ -1,0 +1,19 @@
+.player-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: rgba(158, 30, 30, 0.301);
+}
+.playercard-wrap{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 2em 2em;
+    grid-gap: 30px;
+    height: 50%;
+    width: 100%;
+}
+/* PLAYER CARD */
+
